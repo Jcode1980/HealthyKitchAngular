@@ -1,0 +1,57 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+.mainArea {
+  position: relative;
+  left: 50%;
+  width: 300px;
+  margin-left: -100px;
+  display: inline-block;
+}
+
+
+.mainHeding {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3.5em;
+  height: 80px;
+}
+
+.subHeading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  left: 50%;
+  position: relative;
+  width: 250px;
+  margin-left: -125px;
+
+}
+
+.topRightHeadingArea {
+  margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+  float: right;
+}
+
+.topRightHeadingArea div{
+  display:inline-block;
+  float:right;
+}
+
+.topRightHeadingArea a{
+  font-family: Campton_Bold_light;
+  font-size: .8em;
+  padding-right:10px;
+}
+
+
+.outerParentDiv{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.nav a{
+  font-family: Campton_Bold_light;
+  font-size: .8em;
+}
+
+

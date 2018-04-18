@@ -1,0 +1,201 @@
+
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.panel {
+  border: 1px solid #f4511e;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: white !important;
+}
+
+
+.container-fluid {
+  padding: 10px 50px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+
+.navbar {
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  background-color: none;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: black !important;
+  font-size: 1.2em;
+}
+
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+<!-- search bar css -->#imaginary_container {
+                         margin-top: 20%;
+                         /* Don't copy this */
+                       }
+
+.stylish-input-group .input-group-addon {
+  background: white !important;
+}
+
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc;
+}
+
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+
+
+.searchArea {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.categoryView{
+  background-color: lightgrey;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  display: inline-block;
+}
+
+.bottomPane{
+  max-width:1150px;
+}
+
+.lineBreak{
+  border: 1px solid black;
+  margin-bottom:10px;
+  width:100%;
+}
+
+.categoriesArea{
+  text-align: center;
+}
+
+.recipeListArea{
+  text-align: center;
+}
+.recipeThumbnail{
+  display:inline-block;
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-size: .7em;
+}
+
+.searchPanelArea{
+  background:url("/assets/images/brenda-godinez-228182.jpg") no-repeat;
+  height: 200px;
+  width: 100%;
+  max-width: 1920px; /* YOUR BG MAX SIZE */
+  background-size: 100%;
+}
+
+#newImageContainer{
+  background: url('/assets/images/rightPanelImage.jpg');
+  background-position: center bottom;
+  height: 200px;
+  width: 200px;
+}
+
+.recipeSubHeading{
+  font-family: Holland;
+  font-size: 1.2em;
+}
+

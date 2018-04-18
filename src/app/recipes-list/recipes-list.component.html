@@ -1,0 +1,23 @@
+<div class="searchPanelArea container-fluid">
+  <div class="searchArea">
+    <app-recipes-search-panel (notify)='searchResultCallBack($event)'></app-recipes-search-panel>
+  </div>
+</div>
+<div class="container-fluid bottomPane text-center">
+  <div class="row">
+  <div class="leftPaneArea container-fluid col-9">
+    <div class="row recipeListArea">
+
+      <div class="recipeThumbnail" *ngFor="let recipe of recipes">
+        <app-recipe-preview [currentRecipe]=recipe></app-recipe-preview>
+      </div>
+    </div>
+  </div>
+
+  <div class="rightPanelArea container-fluid col-3">
+    <div class="recipeSubHeading">Healthy Kitch News</div>
+    <div id="newImageContainer"></div>
+    <img [src]="imageChoppingBoardPath" width="200px">
+  </div>
+  </div>
+</div>

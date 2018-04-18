@@ -1,0 +1,60 @@
+<div class="container" *ngIf="recipe">
+<div id="mainHeading">
+  EDIT OR ADD RECIPE
+</div>
+<div class="row">
+  <div class="col">
+
+    <div><input [(ngModel)]="recipe.name" placeholder="name"/></div>
+    <div id="fistLineData">
+    <div id="servesCell" class="borderedDivCell">
+      Serves:
+    </div>
+    <div id="readyInCell" class="borderedDivCell">
+      Ready In:
+    </div>
+    </div>
+    <div>
+        <textarea class="form-control" rows="10" [(ngModel)]="recipe.descText" placeholder="Description">
+        </textarea>
+    </div>
+  </div>
+  <div class="col">
+    <div class="uploadArea"><img src="/assets/images/NoImage_thumb.jpg"></div>
+    <button class="uploadButton" (click)="uploadImage()">Upload Image</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-3">
+    <angular2-multiselect [data]="mealTypes" [(ngModel)]="recipe.mealTypes"
+                          [settings]="mealTypeDropdownSettings"
+                          (onSelect)="onItemSelect($event)"
+                          (onDeSelect)="OnItemDeSelect($event)"
+                          (onSelectAll)="onSelectAll($event)"
+                          (onDeSelectAll)="onDeSelectAll($event)">
+    </angular2-multiselect>
+  </div>
+  <div class="col-3">
+
+    <angular2-multiselect [data]="nutritionalBenefits" [(ngModel)]="recipe.nutritionalBenefits"
+                          [settings]="nutritionalBenefitDropdownSetting"
+                          (onSelect)="onItemSelect($event)"
+                          (onDeSelect)="OnItemDeSelect($event)"
+                          (onSelectAll)="onSelectAll($event)"
+                          (onDeSelectAll)="onDeSelectAll($event)">
+    </angular2-multiselect>
+  </div>
+  <div class="col-3">
+    <angular2-multiselect [data]="dietaryCategories" [(ngModel)]="recipe.dietaryCaregories"
+                          [settings]="dietaryCategoryDropdownSettings"
+                          (onSelect)="onItemSelect($event)"
+                          (onDeSelect)="OnItemDeSelect($event)"
+                          (onSelectAll)="onSelectAll($event)"
+                          (onDeSelectAll)="onDeSelectAll($event)">
+    </angular2-multiselect>
+  </div>
+</div>
+
+  <button (click)="save()">save</button>
+</div>
+

@@ -1,0 +1,21 @@
+.footer *{
+  font-size: .9em;
+}
+
+.footer{
+  margin-top:20px;
+  padding:0;
+}
+
+.imageFooter{
+  background-color: black;
+  height:150px;
+  background-image:url("/images/footer.png");
+
+  background-size: 100% 100%;
+  width:100%;
+}
+
+.baseFooter{
+  margin-top:20px;
+}

@@ -1,0 +1,43 @@
+#mainHeading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.borderedDivCell{
+  border:1px solid black;
+}
+
+#fistLineData{
+  padding-bottom:20px;
+}
+
+#servesCell{
+  width:100px;
+  display:inline-block;
+}
+
+#readyInCell{
+  width:100px;
+  display:inline-block;
+  border-left:none;
+}
+.uploadArea{
+  height:300px;
+  width:100%;
+  background-color:#EEEEEE;
+  line-height: 200px;
+}
+
+.uploadArea img{
+  display: block; /*for the img inside your div */
+  margin:auto;
+  vertical-align: middle;
+}
+.uploadButton{
+  width:100%;
+  background-color:#DDC8B8;
+  color:white;
+  font-weight: bold;
+
+}
