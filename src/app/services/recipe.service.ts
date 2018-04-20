@@ -13,7 +13,7 @@ const httpOptions = {
 @Injectable()
 export class RecipeService {
    private recipesURL = 'api/recipes';  // URL to web api
-  //private recipesURL = 'http://localhost:8085/allRecipes';  // URL to web api
+  // private recipesURL = 'http://localhost:8085/allRecipes';  // URL to web api
   constructor(private http: HttpClient, private messageService: MessageService) { }
 
   getRecipes(): Observable<Recipe[]> {
